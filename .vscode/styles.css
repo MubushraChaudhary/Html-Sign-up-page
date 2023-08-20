@@ -1,0 +1,46 @@
+mystyles.css
+
+
+.header {
+    width: 40%;
+}
+.formMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    background-color: #ffffff;
+}
+
+.description {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 20px;
+
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"] {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+
+}   

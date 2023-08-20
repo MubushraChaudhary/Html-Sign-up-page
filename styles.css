@@ -1,0 +1,57 @@
+body {
+  background-color: #ffffff;
+}
+
+
+.main {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+.pic {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+.pic img {
+  margin-top: 10px;
+}
+
+
+.pic div img {
+  margin-top: 5px;
+  display: flex;
+  flex-direction:column;
+ 
+}
+
+
+.mainform {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.mainform h1 {
+  font-size: 10px;
+  margin-bottom: 10px;
+  text-decoration: orange;
+}
+
+
+
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ffab0f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
